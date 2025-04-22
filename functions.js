@@ -1,2 +1,2 @@
-!function(){function o(o){return"Pizza"}CustomFunctions.associate("Compliant",o),console.log("Custom Functions loaded!"),CustomFunctions.associate("COMPLIANT",o)}();
+Office.onReady((function(){CustomFunctions.associate("Compliant",(function(n){return"Pizza"}))}));
 //# sourceMappingURL=functions.js.map
