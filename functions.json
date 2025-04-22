@@ -1,0 +1,22 @@
+{
+    "functions": [
+      {
+        "id": "Compliant",
+        "name": "Compliant",
+        "description": "Returns compliance status for a ticker (currently returns Pizza).",
+        "parameters": [
+          {
+            "name": "ticker",
+            "description": "Ticker symbol to check",
+            "type": "string"
+          }
+        ],
+        "returns": {
+          "description": "Compliance result",
+          "type": "string"
+        }
+      }
+    ],
+    "namespace": "MXCHANGE"
+  }
+  
