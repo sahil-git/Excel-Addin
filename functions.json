@@ -1,0 +1,19 @@
+{
+    "allowCustomDataForDataTypeAny": true,
+    "functions": [
+        {
+            "description": "Returns Pizza for now.",
+            "id": "COMPLIANT",
+            "name": "COMPLIANT",
+            "parameters": [
+                {
+                    "name": "ticker",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
