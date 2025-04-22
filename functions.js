@@ -1,2 +1,2 @@
-Office.onReady((function(){CustomFunctions.associate("Compliant",(function(n){return"Pizza"}))}));console.log("SahilLoaded");
+Office.onReady((function(){CustomFunctions.associate("Compliant",(function(n){return"Pizza"}))}));
 //# sourceMappingURL=functions.js.map

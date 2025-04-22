@@ -93,10 +93,10 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="Functions.Namespace" DefaultValue="MX"/>
+        <bt:String id="Functions.Namespace" DefaultValue="MXCHANGE"/>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="MXADDIN44"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="MXADDIN454"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started."/>
