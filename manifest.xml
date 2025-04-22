@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="excel-auth-addon"/>
   <Description DefaultValue="Write your own Excel functions in JavaScript."/>
-  <IconUrl DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://sahil-git.github.io/Excel-Addin/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://sahil-git.github.io/Excel-Addin/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.mx.com/help"/>
   <AppDomains>
     <AppDomain>https://www.mx.com</AppDomain>
@@ -21,7 +21,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/taskpane.html"/>
+    <SourceLocation DefaultValue="https://sahil-git.github.io/Excel-Addin/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -81,22 +81,22 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://sahil-git.github.io/Excel-Addin/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://sahil-git.github.io/Excel-Addin/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://sahil-git.github.io/Excel-Addin/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/functions.js"/>
-        <bt:Url id="Functions.Page.Url" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/functions.html"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/functions.js"/>
+        <bt:Url id="Functions.Page.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/functions.html"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://env-muslimxchange-staging.kinsta.cloud/wp-content/plugins/office-addin/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Functions.Namespace" DefaultValue="MX"/>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="MXADDIN312"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="MXADDIN44"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started."/>
