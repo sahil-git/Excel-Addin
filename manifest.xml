@@ -87,6 +87,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Functions.Script.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/functions.js"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/functions.json"/>
         <bt:Url id="Functions.Page.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/functions.html"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
         <bt:Url id="Commands.Url" DefaultValue="https://sahil-git.github.io/Excel-Addin/commands.html"/>
