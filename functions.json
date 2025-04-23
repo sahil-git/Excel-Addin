@@ -1,22 +1,50 @@
 {
     "functions": [
       {
-        "id": "Compliant",
-        "name": "Compliant",
-        "description": "Returns compliance status for a ticker (currently returns Pizza).",
+        "id": "MXTICKER",
+        "name": "MXTICKER",
+        "description": "Returns requested compliance data fields for a stock ticker.",
         "parameters": [
           {
             "name": "ticker",
-            "description": "Ticker symbol to check",
+            "description": "The stock ticker symbol (e.g., 'AAPL').",
             "type": "string"
+          },
+          {
+            "name": "fields",
+            "description": "The names of the fields to retrieve (e.g., 'Result', 'AAOIFI').",
+            "type": "string",
+            "repeat": true
           }
         ],
-        "returns": {
-          "description": "Compliance result",
-          "type": "string"
+        "result": {
+          "type": "string",
+          "dimensionality": "matrix"
+        }
+      },
+      {
+        "id": "MXISIN",
+        "name": "MXISIN",
+        "description": "Returns requested compliance data fields for an ISIN code.",
+        "parameters": [
+          {
+            "name": "isin",
+            "description": "The ISIN code (e.g., 'US0378331005').",
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "description": "The names of the fields to retrieve (e.g., 'FTSE', 'Zakatpershare').",
+            "type": "string",
+            "repeat": true
+          }
+        ],
+        "result": {
+          "type": "string",
+          "dimensionality": "matrix"
         }
       }
     ],
-    "namespace": "MXCHANGE"
+    "namespace": "MX"
   }
   
