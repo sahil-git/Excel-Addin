@@ -1,9 +1,10 @@
 {
+    "namespace": "MXCHANGE",
     "functions": [
       {
         "id": "MXTICKER",
         "name": "MXTICKER",
-        "description": "Returns requested compliance data fields for a stock ticker.",
+        "description": "Fetches specified compliance fields using a stock ticker.",
         "parameters": [
           {
             "name": "ticker",
@@ -12,9 +13,9 @@
           },
           {
             "name": "fields",
-            "description": "The names of the fields to retrieve (e.g., 'Result', 'AAOIFI').",
+            "description": "Array of field names to fetch (e.g., {\"Result\", \"Purification\"}).",
             "type": "string",
-            "repeat": true
+            "dimensionality": "vector"
           }
         ],
         "result": {
@@ -25,7 +26,7 @@
       {
         "id": "MXISIN",
         "name": "MXISIN",
-        "description": "Returns requested compliance data fields for an ISIN code.",
+        "description": "Fetches specified compliance fields using an ISIN code.",
         "parameters": [
           {
             "name": "isin",
@@ -34,9 +35,9 @@
           },
           {
             "name": "fields",
-            "description": "The names of the fields to retrieve (e.g., 'FTSE', 'Zakatpershare').",
+            "description": "Array of field names to fetch (e.g., {\"FTSE\", \"Zakatpershare\"}).",
             "type": "string",
-            "repeat": true
+            "dimensionality": "vector"
           }
         ],
         "result": {
@@ -44,7 +45,6 @@
           "dimensionality": "matrix"
         }
       }
-    ],
-    "namespace": "MX"
+    ]
   }
   
