@@ -1,22 +1,44 @@
 {
-    "namespace": "MX",
     "functions": [
       {
         "id": "Compliant",
         "name": "Compliant",
-        "description": "Checks if a ticker is compliant via the WordPress API.",
+        "description": "Returns compliance status for a ticker (currently returns Pizza).",
         "parameters": [
           {
             "name": "ticker",
-            "description": "The ticker symbol to check (e.g., 'AAPL').",
+            "description": "Ticker symbol to check",
             "type": "string"
           }
         ],
+        "returns": {
+          "description": "Compliance result",
+          "type": "string"
+        }
+      },
+      {
+        "id": "TEST",
+        "name": "TEST",
+        "description": "Returns stock name and selected fields for a ticker",
+        "parameters": [
+          {
+            "name": "ticker",
+            "description": "Stock ticker",
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "description": "Additional fields (e.g., Result, AAOIFI)",
+            "type": "string",
+            "repeat": true
+          }
+        ],
         "result": {
-          "type": "string",
-          "description": "The compliance status message."
+          "type": "matrix",
+          "dimension": "column"
         }
       }
-    ]
+    ],
+    "namespace": "MXCHANGE"
   }
   
