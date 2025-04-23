@@ -1,48 +1,20 @@
 {
-    "namespace": "MXCHANGE",
+    "namespace": "MX",
     "functions": [
       {
-        "id": "MXTICKER",
-        "name": "MXTICKER",
-        "description": "Fetches specified compliance fields using a stock ticker.",
+        "id": "Compliant",
+        "name": "Compliant",
+        "description": "Checks if a ticker is compliant via the WordPress API.",
         "parameters": [
           {
             "name": "ticker",
-            "description": "The stock ticker symbol (e.g., 'AAPL').",
+            "description": "The ticker symbol to check (e.g., 'AAPL').",
             "type": "string"
-          },
-          {
-            "name": "fields",
-            "description": "Array of field names to fetch (e.g., {\"Result\", \"Purification\"}).",
-            "type": "string",
-            "dimensionality": "vector"
           }
         ],
         "result": {
           "type": "string",
-          "dimensionality": "matrix"
-        }
-      },
-      {
-        "id": "MXISIN",
-        "name": "MXISIN",
-        "description": "Fetches specified compliance fields using an ISIN code.",
-        "parameters": [
-          {
-            "name": "isin",
-            "description": "The ISIN code (e.g., 'US0378331005').",
-            "type": "string"
-          },
-          {
-            "name": "fields",
-            "description": "Array of field names to fetch (e.g., {\"FTSE\", \"Zakatpershare\"}).",
-            "type": "string",
-            "dimensionality": "vector"
-          }
-        ],
-        "result": {
-          "type": "string",
-          "dimensionality": "matrix"
+          "description": "The compliance status message."
         }
       }
     ]
