@@ -1,42 +1,44 @@
 {
+    "allowCustomDataForDataTypeAny": true,
     "functions": [
-      {
-        "id": "TEST",
-        "name": "TEST",
-        "description": "Returns multiple fields for a given ticker or ISIN.",
-        "parameters": [
-          {
-            "name": "key",
-            "description": "The ticker or ISIN code",
-            "type": "string"
-          },
-          {
-            "name": "fields",
-            "description": "Array of field names to retrieve (e.g., {\"Result\";\"AAOIFI\"})",
-            "type": "string",
-            "repeating": true
-          }
-        ],
-        "result": {
-          "type": "matrix",
-          "dimension": "1D"
+        {
+            "id": "TICKER",
+            "name": "TICKER",
+            "parameters": [
+                {
+                    "name": "ticker",
+                    "type": "string"
+                },
+                {
+                    "name": "fields",
+                    "optional": true,
+                    "repeating": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix"
+            }
+        },
+        {
+            "description": "Fetches data for a ISIN with specific fields.",
+            "id": "ISIN",
+            "name": "ISIN",
+            "parameters": [
+                {
+                    "name": "ISIN",
+                    "type": "any"
+                },
+                {
+                    "name": "fields",
+                    "optional": true,
+                    "repeating": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix"
+            }
         }
-      },
-      {
-        "id": "Compliant",
-        "name": "Compliant",
-        "description": "Checks if a ticker is compliant via WordPress API.",
-        "parameters": [
-          {
-            "name": "ticker",
-            "description": "The ticker symbol to check.",
-            "type": "string"
-          }
-        ],
-        "result": {
-          "type": "string"
-        }
-      }
     ]
-  }
-  
+}
